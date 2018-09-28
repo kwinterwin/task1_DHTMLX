@@ -1,0 +1,44 @@
+{
+	"tabs" : [
+		{
+			"id" : "tab_1",
+			"text" : "tab 1",
+			"active" : true,
+			"items" : [
+				{ 
+					"type":"block", "text":"Block 1", "list":[
+						{"id" : "open", "type":"button", "text":"Open", "isbig" : true, "img" : "48/open.gif"},
+						{"id" : "new", "type":"button", "text":"new" , "img": "18/new.gif"},
+						{"id" : "cut", "type":"button", "text":"cut", "img": "18/cut.gif" }
+					]
+				},
+				{
+					"type":"block", "text":"Block 2", "text_pos": "top","list":[
+						{"id" : "copy", "type":"button", "text":"copy", "img" : "48/copy.gif" },
+						{"id" : "print", "type":"button", "text":"print" , "img" : "18/print.gif" },
+						{"id" : "paste", "type":"button", "text":"paste" , "img" : "48/paste.gif", "isbig" : true }
+					]
+				},
+				{
+					"type":"block", "list":[
+						{"id" : "save", "type":"button", "text":"Save", "img" : "48/save.gif", "isbig" : true }
+					]
+				}
+			]
+		},
+		{
+			"id" : "tab_2",
+			"text" : "tab_2",
+			"items" : [
+				
+			]
+		},
+		{
+			"id" : "tab_3",
+			"text" : "Tab_3",
+			"items" : [
+				
+			]
+		}
+	]
+}
